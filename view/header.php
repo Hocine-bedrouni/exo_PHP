@@ -1,5 +1,3 @@
-<?php
-?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -9,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <title>accueil démo</title>
+    <title><?= $title ?></title>
 </head>
 <body>
 <header>
@@ -36,15 +34,26 @@
                        Les Boucles
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/views/exo1.php">exo1</a>
-                        <a class="dropdown-item" href="/views/exo2.php">exo2</a>
-                        <a class="dropdown-item" href="/views/exo3.php">exo3</a>
+                        <a class="dropdown-item" href="/view/boucles/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="/view/boucles/exo2.php">exo2</a>
+                        <a class="dropdown-item" href="/view/boucles/exo3.php">exo3</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         Les Tableaux
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/view/tableau/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Les fonctions
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./views/ex.php">exo</a>
