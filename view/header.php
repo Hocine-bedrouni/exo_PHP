@@ -34,9 +34,9 @@
                        Les Boucles
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/view/boucles/exo1.php">exo1</a>
-                        <a class="dropdown-item" href="/view/boucles/exo2.php">exo2</a>
-                        <a class="dropdown-item" href="/view/boucles/exo3.php">exo3</a>
+                        <a class="dropdown-item" href="/php/view/boucles/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="/php/view/boucles/exo2.php">exo2</a>
+                        <a class="dropdown-item" href="/php/view/boucles/exo3.php">exo3</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -45,10 +45,12 @@
                         Les Tableaux
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/view/tableau/exo1.php">exo1</a>
-                        <a class="dropdown-item" href="/view/tableau/exo2-1.php">exo2-1</a>
-                        <a class="dropdown-item" href="/view/tableau/exo2-2.php#">exo2-3</a>
-                        <a class="dropdown-item" href="/view/tableau/exo2-3.php#"></a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo2-1.php">exo2-1</a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo2-2.php">exo2-2</a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo2-3.php">exo2-3</a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo3-1.php">exo3-1</a>
+                        <a class="dropdown-item" href="/php/view/tableau/exo3-2.php">exo3-2</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -57,9 +59,9 @@
                         Les fonctions
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./views/ex.php">exo</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="/php/view/fonction/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="/php/view/fonction/exo2.php">exo2</a>
+                        <a class="dropdown-item" href="/php/view/fonction/exo3.php">exo3</a>
                     </div>
                 </li>
             </ul>

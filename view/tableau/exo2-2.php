@@ -1,8 +1,7 @@
 <?php
-
-include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
 $title = 'exo 2.2 capitales';
-include $_SERVER['DOCUMENT_ROOT'] . '/controllers/tableau/exo2-1_control.php';
+include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
+include $_SERVER['DOCUMENT_ROOT'] . '/controllers/tableau/exo2_control.php';
 ?>
 
 <h3>Affichez la liste des Pays (par ordre alphabétique) suivie du nom des capitales</h3>
@@ -25,7 +24,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/controllers/tableau/exo2-1_control.php';
     } ?>
     <tr>
         <td>nombre de pays : <?= count($capitale)?> </td>
-        <td>------</td>
+        <td>-----------</td>
     </tr>
     </tbody>
 
