@@ -1,7 +1,7 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-$title = 'exo 2';
-include $_SERVER['DOCUMENT_ROOT'].'/controllers/tableau/exo2_control.php';
+$title = 'exo 2.1 capitales';
+include $_SERVER['DOCUMENT_ROOT'].'/controllers/tableau/exo2-1_control.php';
 ?>
 
 <h3>Affichez la liste des capitales (par ordre alphabétique) suivie du nom du pays</h3>
@@ -26,3 +26,8 @@ include $_SERVER['DOCUMENT_ROOT'].'/controllers/tableau/exo2_control.php';
 
 
 </table>
+
+<?php
+include $_SERVER['DOCUMENT_ROOT'].'/view/footer.php';
+?>
+

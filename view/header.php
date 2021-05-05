@@ -46,8 +46,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="/view/tableau/exo1.php">exo1</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="/view/tableau/exo2-1.php">exo2-1</a>
+                        <a class="dropdown-item" href="/view/tableau/exo2-2.php#">exo2-3</a>
+                        <a class="dropdown-item" href="/view/tableau/exo2-3.php#"></a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
