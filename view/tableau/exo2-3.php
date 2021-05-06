@@ -34,3 +34,14 @@ include $_SERVER['DOCUMENT_ROOT'].'/controllers/tableau/exo2_control.php';
 <?php
 include $_SERVER['DOCUMENT_ROOT'].'/view/footer.php';
 ?>
+
+$compt = 0;
+foreach ($capitale as $key =>$value){
+  $result = strtolower (substr($key, 0,1));
+  if($result=='b'){
+    array_slpice($capitale,$compt, 1);
+    $compt--;
+  }
+$compt++;
+}
+var_dump($capitale);

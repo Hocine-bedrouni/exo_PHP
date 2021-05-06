@@ -17,13 +17,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/controllers/tableau/exo3_control.php';
     </thead>
     <tbody>
     <?php
+
     foreach ($departements as $region => $depart){?>
     <tr>
         <td> <?= $region ?> </td>
         <td>
             <?php
+            $nombredept = count($depart);
             foreach ($depart as $depclef => $depvaleur){
-           echo $depvaleur ." -- "; } ?>
+           echo $depvaleur ." -- "; }
+            echo $nombredept; ?>
         </td>
     </tr>
     <?php } ?>

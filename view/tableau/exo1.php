@@ -55,6 +55,6 @@ include $_SERVER['DOCUMENT_ROOT'].'/controllers/tableau/exo1_control.php';
 
 
 
-        <?php
+<?php
 include $_SERVER['DOCUMENT_ROOT'].'/view/footer.php';
 ?>
