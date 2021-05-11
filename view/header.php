@@ -64,6 +64,17 @@
                         <a class="dropdown-item" href="/php/view/fonction/exo3.php">exo3</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Les dates et les heures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/php/view/date/exo1.php">exo1</a>
+                        <a class="dropdown-item" href="/php/view/date/exo2.php">exo2</a>
+                        <a class="dropdown-item" href="/php/view/date/exo3.php">exo3</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
